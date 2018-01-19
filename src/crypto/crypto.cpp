@@ -315,7 +315,7 @@ namespace Crypto {
 #pragma warning(disable: 4200)
 #endif
 
-  struct {
+  struct rs_comm {
     Hash h;
     struct {
       EllipticCurvePoint a, b;
